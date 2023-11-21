@@ -1,11 +1,11 @@
 import React from 'react';
+import TodoWrapper from './components/TodoWrapper';
+import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <button>Incr</button>
-
-      <button>Decr</button>
+      <TodoWrapper />
     </div>
   );
 }
